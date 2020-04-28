@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/vivid-covid/static/css/main.5f093186.chunk.css",
+    "main.js": "/vivid-covid/static/js/main.f359043e.chunk.js",
+    "main.js.map": "/vivid-covid/static/js/main.f359043e.chunk.js.map",
+    "runtime-main.js": "/vivid-covid/static/js/runtime-main.88d1b780.js",
+    "runtime-main.js.map": "/vivid-covid/static/js/runtime-main.88d1b780.js.map",
+    "static/js/2.f4ba299e.chunk.js": "/vivid-covid/static/js/2.f4ba299e.chunk.js",
+    "static/js/2.f4ba299e.chunk.js.map": "/vivid-covid/static/js/2.f4ba299e.chunk.js.map",
+    "index.html": "/vivid-covid/index.html",
+    "precache-manifest.7e3a7f3fe1184b5062e708be01be3bd4.js": "/vivid-covid/precache-manifest.7e3a7f3fe1184b5062e708be01be3bd4.js",
+    "service-worker.js": "/vivid-covid/service-worker.js",
+    "static/css/main.5f093186.chunk.css.map": "/vivid-covid/static/css/main.5f093186.chunk.css.map",
+    "static/js/2.f4ba299e.chunk.js.LICENSE.txt": "/vivid-covid/static/js/2.f4ba299e.chunk.js.LICENSE.txt",
+    "static/media/chart.png": "/vivid-covid/static/media/chart.f12357eb.png",
+    "static/media/hover.png": "/vivid-covid/static/media/hover.7148e7f5.png",
+    "static/media/locate.png": "/vivid-covid/static/media/locate.8fe3dbf2.png",
+    "static/media/logo.png": "/vivid-covid/static/media/logo.90f98b6e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88d1b780.js",
+    "static/js/2.f4ba299e.chunk.js",
+    "static/css/main.5f093186.chunk.css",
+    "static/js/main.f359043e.chunk.js"
+  ]
+}
