@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Vivid-Covid/static/css/main.c6f9f922.chunk.css",
+    "main.css": "/Vivid-Covid/static/css/main.5627fa19.chunk.css",
     "main.js": "/Vivid-Covid/static/js/main.e80d63bc.chunk.js",
     "main.js.map": "/Vivid-Covid/static/js/main.e80d63bc.chunk.js.map",
     "runtime-main.js": "/Vivid-Covid/static/js/runtime-main.334a070e.js",
@@ -8,9 +8,9 @@
     "static/js/2.f4ba299e.chunk.js": "/Vivid-Covid/static/js/2.f4ba299e.chunk.js",
     "static/js/2.f4ba299e.chunk.js.map": "/Vivid-Covid/static/js/2.f4ba299e.chunk.js.map",
     "index.html": "/Vivid-Covid/index.html",
-    "precache-manifest.506eae5aa050cafef121c5774f3c623d.js": "/Vivid-Covid/precache-manifest.506eae5aa050cafef121c5774f3c623d.js",
+    "precache-manifest.b5cead6581f5e093bc4dd7101d17ffe4.js": "/Vivid-Covid/precache-manifest.b5cead6581f5e093bc4dd7101d17ffe4.js",
     "service-worker.js": "/Vivid-Covid/service-worker.js",
-    "static/css/main.c6f9f922.chunk.css.map": "/Vivid-Covid/static/css/main.c6f9f922.chunk.css.map",
+    "static/css/main.5627fa19.chunk.css.map": "/Vivid-Covid/static/css/main.5627fa19.chunk.css.map",
     "static/js/2.f4ba299e.chunk.js.LICENSE.txt": "/Vivid-Covid/static/js/2.f4ba299e.chunk.js.LICENSE.txt",
     "static/media/chart.png": "/Vivid-Covid/static/media/chart.f12357eb.png",
     "static/media/hover.png": "/Vivid-Covid/static/media/hover.7148e7f5.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.334a070e.js",
     "static/js/2.f4ba299e.chunk.js",
-    "static/css/main.c6f9f922.chunk.css",
+    "static/css/main.5627fa19.chunk.css",
     "static/js/main.e80d63bc.chunk.js"
   ]
 }
