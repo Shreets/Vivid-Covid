@@ -1,0 +1,49 @@
+.affected-wrapper {
+  height: 160vh;
+  width: 90%;
+
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.topic {
+  box-sizing: border-box;
+  height: 7%;
+  width: 100%;
+
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.topic div {
+  margin-top: 10px;
+  color: #416686;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: "Abril Fatface", cursive;
+}
+.country {
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px 2px #416686;
+  height: 18%;
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  font-family: "Vidaloka", serif;
+}
+
+.country img {
+  height: 100px;
+  width: 100px;
+  float: right;
+  border: 1px solid black;
+}
+.country-info {
+  float: left;
+  margin-left: 5%;
+}

@@ -1,0 +1,64 @@
+.foot-wrapper {
+  height: 8vh;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.created {
+  float: right;
+  margin-top: 1.5%;
+  margin-right: 0.5%;
+  font-weight: bold;
+  color: white;
+}
+
+.created a {
+  color: white;
+}
+
+.info a {
+  float: left;
+  margin-top: 1.5%;
+  margin-left: 0.5%;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: lightsteelblue;
+}
+
+.dialogContainer {
+  position: absolute;
+  bottom: 110%;
+  left: 10px;
+  z-index: 99;
+  height: 150%;
+  background: white;
+  border: 8px ridge #416686;
+  border-radius: 5;
+  margin: 50;
+  padding: 2%;
+  min-height: 150;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 20px;
+}
+
+.dialogContainer span {
+  color: red;
+  font-size: 15px;
+}
+
+button {
+  width: 10vh;
+  height: 4vh;
+  border-radius: 20px;
+  margin-top: 10px;
+  outline: 0;
+}

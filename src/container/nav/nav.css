@@ -1,0 +1,75 @@
+.nav-wrapper {
+  box-sizing: border-box;
+  height: 12vh;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+.logo {
+  height: 100%;
+
+  float: left;
+}
+
+/* .form__field {
+  font-family: inherit;
+  width: 20%;
+  position: absolute;
+  margin-left: 25%;
+  margin-right: 25%;
+  bottom: 0;
+  border: 0;
+  border-bottom: 3px groove #416686;
+  outline: 0;
+  font-size: 1.2rem;
+  color: #416686;
+  padding-top: 2%;
+  background: transparent;
+  font-family: "Ropa Sans", sans-serif;
+} */
+
+.tabs {
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+
+  float: right;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.tab-span {
+  float: left;
+  margin-right: 20px;
+}
+
+.tab-span a {
+  text-decoration: none;
+  float: left;
+  margin-right: 35px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 28px;
+  color: #416686;
+}
+
+.tab-span a:hover {
+  font-size: 30px;
+  color: #416686;
+}
+
+.img-span {
+  float: right;
+}
+
+.chart-logo {
+  height: 50px;
+  width: 50px;
+  margin: 0;
+}
+
+.chart-logo:hover {
+  content: url("../asset/hover.png");
+}

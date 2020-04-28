@@ -1,0 +1,102 @@
+.stat-wrapper {
+  box-sizing: border-box;
+  height: 15vh;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* .form__field {
+  font-family: inherit;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 0;
+  border-bottom: 3px groove #416686;
+  outline: 0;
+  font-size: 1.2rem;
+  color: #416686;
+  padding-top: 2%;
+  background: transparent;
+  font-family: "Ropa Sans", sans-serif;
+} */
+
+.infected {
+  box-sizing: border-box;
+  height: 90%;
+  width: 40%;
+  background-color: white;
+  float: left;
+  padding: 15px;
+  box-shadow: 5px 5px 8px 5px #c5e7f7;
+}
+
+.recovered {
+  box-sizing: border-box;
+  height: 90%;
+  width: 40%;
+  background-color: white;
+  float: right;
+  padding: 15px;
+  box-shadow: 5px 5px 15px 5px #f2d9e5;
+}
+
+.title {
+  box-sizing: border-box;
+  height: 16%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.infected .title {
+  color: #00695c;
+}
+
+.infected .numbers {
+  color: teal;
+}
+
+.recovered .title {
+  color: #e75480;
+}
+.recovered .numbers {
+  color: lightcoral;
+}
+
+.date {
+  box-sizing: border-box;
+  padding-top: 1%;
+  height: 20%;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: gray;
+}
+.numbers {
+  box-sizing: border-box;
+  padding-top: 3%;
+  height: 60%;
+  font-size: 3vh;
+  border-bottom: 2px ridge black;
+  font-family: "Stardos Stencil", cursive;
+}
+/* 
+.analysis {
+  box-sizing: border-box;
+  height: 25%;
+  background-color: teal;
+  padding-top: 3%;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.infected .analysis {
+  background-color: rgb(62, 206, 191);
+}
+
+.recovered .analysis {
+  background-color: #fdabb9;
+} */

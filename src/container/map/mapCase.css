@@ -1,0 +1,86 @@
+.map-wrapper {
+  box-sizing: border-box;
+  height: 88vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #416686;
+  position: relative;
+}
+
+.frame {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: lightsteelblue;
+  float: right;
+  border: 2px groove;
+}
+
+/* .form__field {
+  font-family: inherit;
+  width: 25vw;
+  height: 5vh;
+  margin: 0 auto;
+  border: 3px solid #416686;
+  border-radius: 25%;
+  font-size: 1.2rem;
+  outline: 0;
+  color: #fff;
+  padding-top: 2%;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+  font-family: "Ropa Sans", sans-serif;
+} */
+
+.form__input {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 5%;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 25vw;
+  outline: 0;
+  border-bottom: 0.3rem solid transparent;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.native {
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.search {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 99;
+  margin: 0 auto;
+}
+
+.pin {
+  height: 15px;
+  width: 15px;
+}
+
+.pin-info {
+  text-align: center;
+}
+
+.pin-name {
+  font-weight: bold;
+}
+
+.pin-recover {
+  font-weight: bold;
+  color: lightcoral;
+}
+
+.pin-confirm {
+  font-weight: bold;
+  color: teal;
+}
