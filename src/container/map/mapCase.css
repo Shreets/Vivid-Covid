@@ -68,7 +68,9 @@
 }
 
 .pin-info {
-  text-align: center;
+  text-align: left;
+
+  width: 30vh;
 }
 
 .pin-name {

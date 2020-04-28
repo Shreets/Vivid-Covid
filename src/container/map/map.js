@@ -47,9 +47,13 @@ const Map = (props) => {
                 <img
                   className="pin"
                   src={Pin}
-                  onClick={(e) => {
+                  onMouseOver={(e) => {
                     e.preventDefault();
                     setSlectPin(data);
+                  }}
+                  onMouseOut={(e) => {
+                    e.preventDefault();
+                    setSlectPin(null);
                   }}
                 />
               </div>
