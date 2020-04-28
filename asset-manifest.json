@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Vivid-Covid/static/css/main.5627fa19.chunk.css",
-    "main.js": "/Vivid-Covid/static/js/main.e80d63bc.chunk.js",
-    "main.js.map": "/Vivid-Covid/static/js/main.e80d63bc.chunk.js.map",
+    "main.js": "/Vivid-Covid/static/js/main.ff111fea.chunk.js",
+    "main.js.map": "/Vivid-Covid/static/js/main.ff111fea.chunk.js.map",
     "runtime-main.js": "/Vivid-Covid/static/js/runtime-main.334a070e.js",
     "runtime-main.js.map": "/Vivid-Covid/static/js/runtime-main.334a070e.js.map",
     "static/js/2.f4ba299e.chunk.js": "/Vivid-Covid/static/js/2.f4ba299e.chunk.js",
     "static/js/2.f4ba299e.chunk.js.map": "/Vivid-Covid/static/js/2.f4ba299e.chunk.js.map",
     "index.html": "/Vivid-Covid/index.html",
-    "precache-manifest.b5cead6581f5e093bc4dd7101d17ffe4.js": "/Vivid-Covid/precache-manifest.b5cead6581f5e093bc4dd7101d17ffe4.js",
+    "precache-manifest.db38051059545ff868bfee19b5dfc0ac.js": "/Vivid-Covid/precache-manifest.db38051059545ff868bfee19b5dfc0ac.js",
     "service-worker.js": "/Vivid-Covid/service-worker.js",
     "static/css/main.5627fa19.chunk.css.map": "/Vivid-Covid/static/css/main.5627fa19.chunk.css.map",
     "static/js/2.f4ba299e.chunk.js.LICENSE.txt": "/Vivid-Covid/static/js/2.f4ba299e.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.334a070e.js",
     "static/js/2.f4ba299e.chunk.js",
     "static/css/main.5627fa19.chunk.css",
-    "static/js/main.e80d63bc.chunk.js"
+    "static/js/main.ff111fea.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "386bc08712c7e29082385551132aee8c",
+    "revision": "da8d40aa0a9ff641b912b4aa84905038",
     "url": "/Vivid-Covid/index.html"
   },
   {
-    "revision": "24e82eb599595bde9b02",
+    "revision": "0c0bfa86f7e05f22f7a0",
     "url": "/Vivid-Covid/static/css/main.5627fa19.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Vivid-Covid/static/js/2.f4ba299e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "24e82eb599595bde9b02",
-    "url": "/Vivid-Covid/static/js/main.e80d63bc.chunk.js"
+    "revision": "0c0bfa86f7e05f22f7a0",
+    "url": "/Vivid-Covid/static/js/main.ff111fea.chunk.js"
   },
   {
     "revision": "86e157e796b242f060b4",
