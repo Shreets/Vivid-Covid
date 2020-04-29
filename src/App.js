@@ -22,12 +22,12 @@ function App() {
     "November",
     "December",
   ];
-
-  const [country, setCountry] = useState();
+  const [confirm, setConfirmed] = useState(0);
+  const [recover, setRecovered] = useState(0);
+  const [country, setCountry] = useState(undefined);
   const [countryOption, setCountryOption] = useState([]);
-  const [confirm, setConfirmed] = useState();
-  const [recover, setRecovered] = useState();
-  const [date, setDate] = useState();
+
+  const [date, setDate] = useState(new Date());
 
   const dateStr = new Date(date);
   const dateFormat =

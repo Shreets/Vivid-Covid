@@ -15,9 +15,9 @@ const Footer = (props) => {
           <br />
           The API derives data provided by John Hopkins. Although the numbers
           provided are accurate and up to date, provinces of a country or a
-          territoryunder ceratin country's rule is also shown as the country
-          itself in the map. These will be taken care of upon gaining acces to a
-          better (yet free) API.
+          territory under a certain country's governance is also shown as the
+          country itself in the map. These will be taken care of upon gaining
+          acces to a better (yet free) API.
           <br />
           <span>
             **This is a Test version. Further updates will be made soon.
