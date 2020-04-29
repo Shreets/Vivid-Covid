@@ -88,12 +88,13 @@ function App() {
 
   const recoverSelect = () => {
     fetchData();
+    setCountry(undefined);
   };
 
   return (
     <div className="App">
       <div className="nav">
-        <Nav recoverSelect={recoverSelect} />
+        <Nav recoverSelect={recoverSelect} country={country} />
       </div>
 
       <div className="stats">
@@ -106,6 +107,7 @@ function App() {
           countryOption={countryOption}
           select={countrySelect}
           country={country}
+          recoverSelect={recoverSelect}
         />
       </div>
       {/* 

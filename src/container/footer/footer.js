@@ -32,7 +32,7 @@ const Footer = (props) => {
   return (
     <div className="foot-wrapper">
       <div className="created">
-        Created by{" "}
+        Copyright © 2020{" "}
         <a href="https://github.com/Shreets?tab=repositories" target="_blank">
           {" "}
           Shreeti Upreti{" "}

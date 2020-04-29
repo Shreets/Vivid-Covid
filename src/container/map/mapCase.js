@@ -6,16 +6,17 @@ import ReactMapGL, { Marker, Popup } from "@urbica/react-map-gl";
 import Pin from "../asset/locate.png";
 
 const MapCase = (props) => {
-  // const
   return (
     <div className="map-wrapper">
       <div className="frame">
-        <Map location={props.location} />
+        <Map location={props.country} recoverSelect={props.recoverSelect} />
       </div>
       <div className="search">
         <FormControl className="form__input">
           <NativeSelect defaultValue="" onChange={props.select}>
-            <option>-- Search by Country --</option>
+            <option onClick={props.recoverSelect}>
+              -- Search by Country --
+            </option>
             {props.countryOption.map((country, i) => (
               <option key={i} value={country}>
                 {country}

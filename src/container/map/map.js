@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import ReactMapGL, { Marker, Popup } from "@urbica/react-map-gl";
 import Pin from "../asset/locate.png";
 import "./mapCase.css";
-import { NativeSelect, FormControl } from "@material-ui/core";
 
 const Map = (props) => {
   const [viewport, setViewport] = useState({
@@ -12,6 +11,7 @@ const Map = (props) => {
   });
   const [locate, setLocate] = useState([]);
   const [selectPin, setSlectPin] = useState(null);
+  const [pop, setPop] = useState(false);
 
   const getLocation = async () => {
     const response = await fetch("https://covid19.mathdro.id/api/recovered");
@@ -19,11 +19,43 @@ const Map = (props) => {
     setLocate(data);
   };
 
+  const updateView = () => {
+    return locate.map((data) => {
+      if (props.location === data.countryRegion) {
+        setViewport({
+          latitude: data.lat,
+          longitude: data.long,
+          zoom: 4,
+        });
+        setSlectPin(data);
+      }
+    });
+  };
+
+  const checkPop = () => {
+    if (props.location !== undefined) {
+      setPop(true);
+
+      updateView();
+    } else {
+      setPop(false);
+      setViewport({
+        latitude: 36,
+        longitude: 16,
+        zoom: 1.5,
+      });
+    }
+  };
+
   useEffect(() => {
     getLocation();
   }, []);
 
-  const mapFunction = () => {
+  useEffect(() => {
+    checkPop();
+  }, [props.location]);
+
+  const popReturn = () => {
     return (
       <div>
         <ReactMapGL
@@ -59,11 +91,13 @@ const Map = (props) => {
               </div>
             </Marker>
           ))}
-          {selectPin ? (
+          {selectPin || (pop && selectPin) ? (
             <Popup
               latitude={selectPin.lat}
               longitude={selectPin.long}
-              onClose={() => setSlectPin(null)}
+              onClose={() => {
+                setSlectPin(null);
+              }}
             >
               <div className="pin-info">
                 <span className="pin-name">{selectPin.combinedKey}</span>
@@ -83,7 +117,7 @@ const Map = (props) => {
     );
   };
 
-  return mapFunction();
+  return popReturn();
 };
 
 export default Map;
