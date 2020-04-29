@@ -1,6 +1,6 @@
 .nav-wrapper {
   box-sizing: border-box;
-  height: 12vh;
+  height: 100%;
   width: 90%;
   margin: 0 auto;
   padding: 10px;
@@ -12,24 +12,6 @@
 
   float: left;
 }
-
-/* .form__field {
-  font-family: inherit;
-  width: 20%;
-  position: absolute;
-  margin-left: 25%;
-  margin-right: 25%;
-  bottom: 0;
-  border: 0;
-  border-bottom: 3px groove #416686;
-  outline: 0;
-  font-size: 1.2rem;
-  color: #416686;
-  padding-top: 2%;
-  background: transparent;
-  font-family: "Ropa Sans", sans-serif;
-} */
-
 .tabs {
   box-sizing: border-box;
   display: flex;
@@ -72,4 +54,18 @@
 
 .chart-logo:hover {
   content: url("../asset/hover.png");
+}
+
+@media only screen and (max-width: 550px) {
+  .logo {
+    height: 90%;
+    margin: 0 10%;
+  }
+  .tabs {
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5%;
+  }
 }

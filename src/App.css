@@ -35,18 +35,33 @@ footer {
   background-color: #416686;
 }
 
-/* @media only screen and (max-width: 100px) {
+@media only screen and (max-width: 1150px) {
   .nav {
     box-sizing: border-box;
-    min-height: 12vh;
+    height: 15vh;
     margin-bottom: 1.5%;
     display: fixed;
   }
 
   .stats {
     box-sizing: border-box;
-    height: 15vh;
+    height: 20vh;
     margin-bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .nav {
+    box-sizing: border-box;
+    height: 15vh;
+    margin-bottom: 3%;
+    display: fixed;
+  }
+
+  .stats {
+    box-sizing: border-box;
+    height: 50vh;
+    margin-bottom: 20%;
   }
 
   .map {
@@ -55,15 +70,9 @@ footer {
     margin-bottom: 2%;
   }
 
-  .least-affected {
-    box-sizing: border-box;
-    height: 160vh;
-    margin-bottom: 2%;
-  }
-
   footer {
     box-sizing: border-box;
     height: 10vh;
     background-color: #416686;
   }
-} */
+}

@@ -1,6 +1,6 @@
 .map-wrapper {
   box-sizing: border-box;
-  height: 88vh;
+  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -16,25 +16,6 @@
   float: right;
   border: 2px groove;
 }
-
-/* .form__field {
-  font-family: inherit;
-  width: 25vw;
-  height: 5vh;
-  margin: 0 auto;
-  border: 3px solid #416686;
-  border-radius: 25%;
-  font-size: 1.2rem;
-  outline: 0;
-  color: #fff;
-  padding-top: 2%;
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  );
-  font-family: "Ropa Sans", sans-serif;
-} */
 
 .form__input {
   font-family: "Roboto", sans-serif;
@@ -85,4 +66,10 @@
 .pin-confirm {
   font-weight: bold;
   color: teal;
+}
+
+@media only screen and (max-width: 1150px) {
+  .form__input {
+    width: 110%;
+  }
 }

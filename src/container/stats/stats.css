@@ -1,27 +1,10 @@
 .stat-wrapper {
   box-sizing: border-box;
-  height: 15vh;
+  height: 100%;
   width: 50%;
   margin: 0 auto;
   position: relative;
 }
-
-/* .form__field {
-  font-family: inherit;
-  width: 50%;
-  margin-top: 20px;
-  margin-left: 25%;
-  margin-right: 25%;
-  border: 0;
-  border-bottom: 3px groove #416686;
-  outline: 0;
-  font-size: 1.2rem;
-  color: #416686;
-  padding-top: 2%;
-  background: transparent;
-  font-family: "Ropa Sans", sans-serif;
-} */
-
 .infected {
   box-sizing: border-box;
   height: 90%;
@@ -82,21 +65,40 @@
   border-bottom: 2px ridge black;
   font-family: "Stardos Stencil", cursive;
 }
-/* 
-.analysis {
-  box-sizing: border-box;
-  height: 25%;
-  background-color: teal;
-  padding-top: 3%;
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
+
+@media only screen and (max-width: 1150px) {
+  .stat-wrapper {
+    box-sizing: border-box;
+    height: 100%;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .numbers {
+    height: 50%;
+  }
 }
 
-.infected .analysis {
-  background-color: rgb(62, 206, 191);
-}
+@media only screen and (max-width: 550px) {
+  .stat-wrapper {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .infected {
+    height: 35%;
+    width: 80%;
+    margin-bottom: 5%;
+  }
 
-.recovered .analysis {
-  background-color: #fdabb9;
-} */
+  .recovered {
+    height: 35%;
+    width: 80%;
+  }
+
+  .numbers {
+    height: 50%;
+  }
+}

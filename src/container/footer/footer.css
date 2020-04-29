@@ -1,5 +1,5 @@
 .foot-wrapper {
-  height: 8vh;
+  height: 100;
   width: 90%;
   margin: 0 auto;
   position: relative;
@@ -35,7 +35,7 @@
   bottom: 110%;
   left: 10px;
   z-index: 99;
-  height: 250%;
+  height: 25vh;
   background: white;
   border: 8px ridge #416686;
   border-radius: 5;
@@ -48,6 +48,7 @@
   justify-content: space-between;
   font-family: "Ropa Sans", sans-serif;
   font-size: 20px;
+  overflow-y: auto;
 }
 
 .dialogContainer span {
@@ -61,4 +62,10 @@ button {
   border-radius: 20px;
   margin-top: 10px;
   outline: 0;
+}
+
+@media only screen and (max-width: 550px) {
+  .foot-wrapper {
+    font-size: 14px;
+  }
 }
