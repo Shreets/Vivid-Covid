@@ -1,7 +1,7 @@
 ## VIVID-COVID
 
-A ReactJS based web application displaying covid-19 recovery cases [Vivid-Covid](https://shreets.github.io/Vivid-Covid/
-).
+A ReactJS based web application displaying covid-19 recovery cases.
+Link to the site :  [Vivid-Covid](https://shreets.github.io/Vivid-Covid/).
 
 ### Description
 
